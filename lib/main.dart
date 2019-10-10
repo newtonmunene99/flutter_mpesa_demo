@@ -19,9 +19,9 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Mpesa _mpesa = Mpesa(
-    clientKey: "qPB2VrkOdN0mHzwuKbfBdxghTB8BxDB0",
-    clientSecret: "JcmP4DBFZc3CjXo0",
-    passKey: "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
+    clientKey: "",
+    clientSecret: "",
+    passKey: "",
     initiatorPassword: "Safaricom007@",
     environment: "sandbox",
   );
@@ -36,11 +36,10 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               _mpesa
                   .lipaNaMpesa(
-                    phoneNumber: "254792274634",
+                    phoneNumber: "254...",
                     amount: 1,
                     businessShortCode: "174379",
-                    callbackUrl:
-                        "https://darajaendpoint-git-master.newtonmunene99.now.sh/callback",
+                    callbackUrl: "",
                   )
                   .then((result) {})
                   .catchError((error) {});
