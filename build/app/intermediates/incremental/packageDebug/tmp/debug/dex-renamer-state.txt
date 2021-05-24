@@ -1,4 +1,4 @@
-#Thu Oct 10 09:39:23 EAT 2019
-base.0=/home/munene/Projects/Flutter/mpesa_test/build/app/intermediates/transforms/dexMerger/debug/0
+#Mon May 24 11:45:53 EAT 2021
+base.0=/home/munene/Projects/Flutter/flutter_mpesa_demo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

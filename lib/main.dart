@@ -22,7 +22,6 @@ class _HomePageState extends State<HomePage> {
     clientKey: "",
     clientSecret: "",
     passKey: "",
-    initiatorPassword: "Safaricom007@",
     environment: "sandbox",
   );
 
@@ -31,7 +30,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(
         child: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
             child: Text("PAY"),
             onPressed: () {
               _mpesa
